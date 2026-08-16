@@ -1,0 +1,23 @@
+# BraTS datasets
+*.nii
+*.nii.gz
+BraTS/
+BraTS2020/
+BraTS2021/
+MICCAI_BraTS2020/
+MICCAI_BraTS2021/
+
+# Trained models
+*.keras
+*.h5
+*.weights.h5
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle
+/kaggle/
