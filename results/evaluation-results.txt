@@ -1,0 +1,23 @@
+Brain Tumor Segmentation - Evaluation Results
+
+Datasets:
+- BraTS 2021
+- BraTS 2020
+
+BraTS 2021 Dataset Performance:
+Whole Tumor (WT): 92.0%
+Tumor Core (TC): 87.0%
+Enhancing Tumor (ET): 79.0%
+
+BraTS 2020 Dataset Performance:
+Whole Tumor (WT): 90.0%
+Tumor Core (TC): 85.0%
+Enhancing Tumor (ET): 73.0%
+
+Post-processing:
+3D morphological closing and a 400-voxel thresholding rule were applied
+to the Enhancing Tumor regions to reduce isolated false-positive noise.
+
+Note:
+BraTS 2021 was used for the primary development/evaluation pipeline,
+while BraTS 2020 was used for additional testing of the trained model.
