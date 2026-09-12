@@ -21,3 +21,14 @@ __pycache__/
 
 # Kaggle
 /kaggle/
+
+# Training logs
+training_log.csv
+
+# Generated videos and animations
+*.mp4
+*.gif
+
+# OS files
+.DS_Store
+Thumbs.db
