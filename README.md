@@ -168,6 +168,8 @@ The project uses a 3D Residual Attention U-Net with Squeeze-and-Excitation block
 
 The network follows an encoder-decoder architecture.
 
+![3D Residual Attention U-Net Architecture](images/BrainTumour_Architecture.jpeg)
+
 ### Encoder
 
 The encoder progressively extracts high-level spatial features using:
